@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0b0c10;
+  color: #e8e8e8;
+  padding: 2rem;
+}
+
+h1, h2 {
+  color: #64c5b7;
+}
+
+input, button {
+  display: block;
+  margin: 0.5rem 0;
+  padding: 0.6rem;
+  width: 100%;
+  max-width: 300px;
+}
+
+button {
+  background: linear-gradient(135deg, #64c5b7, #d8ede7);
+  border: none;
+  color: #0b0c10;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#alerts li {
+  background: #111218;
+  margin: 0.4rem 0;
+  padding: 0.6rem;
+  border-radius: 8px;
+}
