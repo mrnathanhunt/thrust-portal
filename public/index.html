@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Thrust Client Portal</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <div id="auth">
+    <h1>THRUST Portal</h1>
+    <input id="email" type="email" placeholder="Email" />
+    <input id="password" type="password" placeholder="Password" />
+    <button id="signup">Sign Up</button>
+    <button id="login">Log In</button>
+  </div>
+
+  <div id="dashboard" style="display:none;">
+    <h1>Welcome</h1>
+    <button id="logout">Logout</button>
+
+    <h2>📢 Alerts</h2>
+    <ul id="alerts"></ul>
+
+    <h2>📄 Documents</h2>
+    <p>Upload & view corporate docs (coming soon).</p>
+  </div>
+</body>
+</html>
